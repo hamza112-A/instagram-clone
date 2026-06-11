@@ -26,3 +26,37 @@ A fully featured, offline-first Instagram Clone Android application built with m
   - **Firebase Storage:** Media uploads (images, posts, stories).
   - **Firebase Cloud Messaging (FCM):** Push notifications.
   - **Cloud Functions:** Serverless handlers for notifications and database maintenance.
+
+---
+
+## ✨ Features
+
+### 👤 Authentication & Profiles
+- **Secure Auth:** Sign up, log in, and request password resets.
+- **Session Management:** Secure local storage of sessions via `SessionManager`.
+- **Profile Customization:** Edit bio, update profile picture, and view individual/other user profiles with statistics (followers, following, posts counts).
+
+### 📸 Feed & Stories
+- **Interactive Feed:** Scroll posts, double-tap to like, view & write comments.
+- **Stories Screen:** Upload 24-hour disappearing stories with progress indicator views.
+- **Camera Integration:** Seamless capture via CameraX API.
+
+### 💬 Real-Time Messaging & Presence
+- **Chat Rooms:** Exchange text or photo messages instantly.
+- **Message Controls:** Edit or delete sent messages with real-time UI updates.
+- **Active Presence:** View online/offline indicators for users.
+- **Notifications:** Receive instant foreground/background updates for messages and calls.
+
+### 📞 Agora Audio/Video Calling
+- **Voice/Video Calls:** High-quality, real-time calling implemented using Agora SDK.
+- **Controls:** Toggle speaker, mute/unmute audio, or flip cameras during calls.
+- **Call Management:** Complete foreground service to manage active call notifications and states.
+
+---
+
+## 📶 Offline-First Implementation (Room + WorkManager)
+
+To ensure a smooth user experience regardless of connection state, the app employs an offline queue system:
+- **Local Caching:** Feed posts, comments, stories, and chat threads are stored in the local Room Database (`AppDatabase`).
+- **Pending Sync Queue:** Any user action performed offline (likes, comments, posts, or stories) is saved into specific pending tables (`PendingPostEntity`, `PendingStoryEntity`, `PendingLikeEntity`, `PendingCommentEntity`).
+- **WorkManager Sync:** A persistent worker automatically detects network reconnection and fires queue syncing requests to the Firebase Backend.
