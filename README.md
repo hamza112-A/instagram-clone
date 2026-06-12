@@ -60,3 +60,31 @@ To ensure a smooth user experience regardless of connection state, the app emplo
 - **Local Caching:** Feed posts, comments, stories, and chat threads are stored in the local Room Database (`AppDatabase`).
 - **Pending Sync Queue:** Any user action performed offline (likes, comments, posts, or stories) is saved into specific pending tables (`PendingPostEntity`, `PendingStoryEntity`, `PendingLikeEntity`, `PendingCommentEntity`).
 - **WorkManager Sync:** A persistent worker automatically detects network reconnection and fires queue syncing requests to the Firebase Backend.
+
+---
+
+## ⚙️ Setup & Installation
+
+### 📋 Prerequisites
+- Android Studio Jellyfish (or newer)
+- JDK 11 or higher
+- Firebase Project setup
+- Agora Developer account (with App ID and Token)
+
+### 🔧 Configuration Steps
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/hamza112-A/instagram-clone.git
+   cd instagram-clone
+   ```
+
+2. **Add Firebase:**
+   - Download the `google-services.json` file from your Firebase console.
+   - Place it in the `/app` directory of the project.
+
+3. **Configure Agora SDK:**
+   - Open your project settings or define your Agora App ID inside the call service initialization files to enable call functionality.
+
+4. **Build and Run:**
+   - Sync Gradle files and run the project on an emulator or a physical device running Android 7.0 (API level 24) or higher.
