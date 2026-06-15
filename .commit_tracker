@@ -70,3 +70,4 @@ Commit 69 at 2026-06-15 22:10:16: Implement REST API calls
 Commit 70 at 2026-06-16 04:28:17: Add Retrofit configuration
 Commit 71 at 2026-06-15 21:02:20: Create response models
 Commit 72 at 2026-06-16 04:43:11: Implement JSON parsing
+Commit 73 at 2026-06-16 01:03:45: Add API error handling
