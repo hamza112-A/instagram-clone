@@ -2,3 +2,4 @@
 [2026-07-01 14:15:54] Fix: Notification badge not updating
 [2026-07-02 18:34:49] Fix: Chat scroll position not maintained
 [2026-07-02 16:19:42] Refactor: Clean up deprecated API calls
+[2026-07-02 18:36:7] Fix: Video playback stuttering in feed
