@@ -24,3 +24,4 @@ Commit 23 at 2026-06-16 03:15:53: Create follow system
 Commit 24 at 2026-06-16 02:05:08: Implement follower/following lists
 Commit 25 at 2026-06-16 04:28:34: Add like functionality
 Commit 26 at 2026-06-15 21:41:55: Create comment system
+Commit 27 at 2026-06-16 02:10:49: Implement nested comments
