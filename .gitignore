@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/google-services.json
+MESSAGING_TESTING_GUIDE.md
+MILESTONE_EXECUTION_PLAN.md
+PHASE1_IMPLEMENTATION_SUMMARY.md
+app/google-services.json
+PHASE1_INBOX_COMPLETION.md
+PHASE3_AGORA_CALLS_SUMMARY.md
+PHASE4_7_IMPLEMENTATION_SUMMARY.md
+PHASE4_7_FINAL_SUMMARY.md
+PHASE4_PROFILE_IMAGE_FEATURE.md
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Cloud Functions
+functions/node_modules/
+functions/serviceAccountKey.json
+functions/.env
