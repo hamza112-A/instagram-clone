@@ -1,0 +1,186 @@
+6f96c5bc9de2e711efcc233384209f55b1c5aac4
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 15:20:54 +0500
+added call notification
+
+---
+6061c0a81d15b56b7f6cb20335bfebbc0863d09a
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 14:38:03 +0500
+.
+
+---
+62cbe62e3cede0fd378f74ec8bc499199ec06860
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 14:37:46 +0500
+added FCM and notifications
+
+---
+325a43945b7324aa791a31ae23f3b6ffcf35f844
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 12:51:56 +0500
+added offline/online status, screenshot notificaiotn
+
+---
+832317575995105cf698e2682ee6e51e2ce4720f
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 11:50:32 +0500
+added accept and decline with follow button
+
+---
+adcd2343f3a96db09f1dc032674f2e0a47b1d91c
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 01:30:44 +0500
+added Search & Filters and Follow System & User Interactions
+
+---
+911ee133ff61c6a7fb4e830b592c6dc73746916b
+bilal2134 <i210575@nu.edu.pk>
+2025-10-10 00:48:09 +0500
+Implement real-time audio and video calls using the Agora API.
+
+---
+4da3da02248f63c7eed7750b870cafca06ff159f
+bilal2134 <i210575@nu.edu.pk>
+2025-10-09 23:26:04 +0500
+polished message UI
+
+---
+3a2e6a44c7d6bc0116e11e4be57dd35d4a0ceea2
+bilal2134 <i210575@nu.edu.pk>
+2025-10-09 22:45:43 +0500
+sending a text message or a photo message, editing the text message and deleting it and then replying from the other account
+
+---
+d14e4629b4f1acc41749c1b4b88920b9d57da88d
+bilal2134 <i210575@nu.edu.pk>
+2025-10-09 22:45:29 +0500
+added sending a text message or a photo message, editing the text message and deleting it and then replying from the other account
+
+---
+f701cfd535117c14f836b14ba3b47eb09a735b24
+bilal2134 <i210575@nu.edu.pk>
+2025-10-08 23:09:25 +0500
+3. Photo & Media Uploads (10 Marks) ● Users can upload images in posts. ● Posts should support likes and comments.
+
+---
+d2d667887a5daa9633cdd99157dea414464d9462
+bilal2134 <i210575@nu.edu.pk>
+2025-10-08 22:49:35 +0500
+Stories Feature
+
+---
+f420b60ef3f7c73087cbc2c42532201bae5d0ecd
+bilal2134 <i210575@nu.edu.pk>
+2025-10-08 09:42:50 +0500
+add gitignore
+
+---
+0dac1d2eda7a79722eb0a488fca0c5fd11713b0e
+bilal2134 <i210575@nu.edu.pk>
+2025-10-08 00:18:56 +0500
+..
+
+---
+f04719fa223619862bc76ab11220d7f1905f09d3
+bilal2134 <i210575@nu.edu.pk>
+2025-10-08 00:16:34 +0500
+added signup, login auth with forget password
+
+---
+9058aec29447ed246981d4decd88d99aea1b3bfb
+bilal2134 <i210575@nu.edu.pk>
+2025-09-13 10:48:06 +0500
+2 simple test cases: basic-Verifies MainActivity starts without crashing.....simple:Simple context test with 1-second wait
+
+---
+62388745007ca724ab3668c12f474570ba96e704
+bilal2134 <i210575@nu.edu.pk>
+2025-09-13 09:42:16 +0500
+implemented other person profile UI
+
+---
+0b196968211441dbb3fc9f9f9e6f60e7ae7d41f9
+bilal2134 <i210575@nu.edu.pk>
+2025-09-13 09:27:11 +0500
+added story changes like post story view my story add other person story
+
+---
+e0e3ed87572d781a6b5d6c2ae263478c24859b1c
+bilal2134 <i210575@nu.edu.pk>
+2025-09-13 08:53:50 +0500
+upload photo / post a photo UI added
+
+---
+81343d29b98612a9e1f695e2c41408c50a978dbf
+bilal2134 <i210575@nu.edu.pk>
+2025-09-13 02:06:50 +0500
+added Profile Edit views and my highlight view my me views
+
+---
+9caeef3f5638601d1f3c93575b4facf3213be273
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 22:44:10 +0500
+added my profile view
+
+---
+9c797b1ff3bceb7fad4b66fb1ed463bf4ebfce33
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 22:12:34 +0500
+notification view enhancement
+
+---
+d9dbdbac6256688d70bb77788f7999600636e4d0
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 22:12:14 +0500
+added notification view from heart icon for both you and following
+
+---
+e8f4b78f2d264d21804ede6a8214f91cde5a9a13
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 21:38:06 +0500
+inbox implementation complete with call UI
+
+---
+abb5311c34ee68908e09d74c6a41d5c0de3f8ffe
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 01:05:34 +0500
+added main inbox screen
+
+---
+20d002ca30f82ffe333229f38ff3ddc567f626ba
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 00:46:36 +0500
+added search in discover feed
+
+---
+3b9f64df1ac6f294a52089766b1aece872a7545e
+bilal2134 <i210575@nu.edu.pk>
+2025-09-12 00:14:53 +0500
+added discover/explore page and connected it to main feed page for navigation
+
+---
+193b79ab6662fd15684c604a5a12405d5a772800
+bilal2134 <i210575@nu.edu.pk>
+2025-09-11 23:53:06 +0500
+added main feed page 5/22 down
+
+---
+e05b2643a4bc195157e20d656c87a9b5522ba9cb
+bilal2134 <i210575@nu.edu.pk>
+2025-09-11 23:13:26 +0500
+created loading, signup, login flow with navigation
+
+---
+3770c317605ea8fcc776aed88e4b836a573133a4
+bilal2134 <i210575@nu.edu.pk>
+2025-09-11 22:05:39 +0500
+first commit
+
+---
+89a5b7dd7096db9453546aa89f1943542811db8e
+bilal2134 <i210575@nu.edu.pk>
+2025-09-11 21:57:55 +0500
+first commit
+
+---
