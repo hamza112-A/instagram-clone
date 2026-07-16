@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Story Ring Gradient Colors -->
+    <color name="story_ring_start">#F58529</color>
+    <color name="story_ring_center">#DD2A7B</color>
+    <color name="story_ring_end">#515BD4</color>
+    
+    <!-- Instagram like colors -->
+    <color name="instagram_red">#B85C5C</color>
+    <color name="instagram_blue">#3897F0</color>
+    <color name="instagram_green">#4CAF50</color>
+    <color name="light_brown">#9B6B6B</color>
+    <color name="dark_brown">#8B4513</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="text_gray">#888888</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    
+    <!-- Additional UI Colors -->
+    <color name="text_primary">#262626</color>
+    <color name="background_gray">#FAFAFA</color>
+</resources>

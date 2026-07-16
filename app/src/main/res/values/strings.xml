@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Socially</string>
+    
+    <!-- Loading Screen -->
+    <string name="from_smd">from\nSMD</string>
+    
+    <!-- Signup Screen -->
+    <string name="create_account">Create An Account and Sign Up</string>
+    <string name="username">Username</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_last_name">Your Last name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter E-mail</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="creating_account">Creating your account&#8230;</string>
+    <string name="error_username_required">Please enter a username.</string>
+    <string name="error_first_name_required">Please enter your first name.</string>
+    <string name="error_last_name_required">Please enter your last name.</string>
+    <string name="error_dob_required">Please enter your date of birth.</string>
+    <string name="error_email_required">Please enter your email.</string>
+    <string name="error_email_invalid">Please enter a valid email address.</string>
+    <string name="error_password_required">Please enter a password.</string>
+    <string name="error_password_length">Password must be at least 6 characters long.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_signup_failed">Unable to create your account right now.</string>
+    <string name="error_image_upload">Failed to upload profile image. Please try again.</string>
+    <string name="error_saving_profile">Failed to save profile information. Please try again.</string>
+    <string name="signup_success">Welcome to Socially!</string>
+    <string name="logging_in">Logging you in&#8230;</string>
+    <string name="error_login_failed">Unable to log in. Please check your email and password.</string>
+    <string name="error_fetching_profile">Unable to load your profile details. Please try again.</string>
+    <string name="reset_password_title">Reset password</string>
+    <string name="reset_password_message">Enter your email to receive a reset link.</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="sending_reset_email">Sending reset email&#8230;</string>
+    <string name="reset_email_sent">Password reset email sent. Check your inbox.</string>
+    <string name="error_reset_email">We could not send that reset email right now. Please try again.</string>
+    <string name="quick_login_password_prompt">Enter your password to continue.</string>
+    <string name="quick_login_password_hint">Password</string>
+    <string name="quick_login_title">Log back in</string>
+    <string name="quick_login_error_no_email">We need an email address to continue. Please switch accounts.</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_link_text">Log in.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_toast">You have been signed out</string>
+    <string name="stories_empty_state">No stories yet. Share something to get the conversation started.</string>
+    <string name="uploading_story">Uploading your story&#8230;</string>
+    <string name="uploading_story_with_progress">Uploading your story&#8230; %1$d%%</string>
+    <string name="story_uploaded_success">Your story is live for the next 24 hours.</string>
+    <string name="error_select_story_media">Pick a photo or video before sharing your story.</string>
+    <string name="error_upload_story">We could not share your story right now. Please try again.</string>
+    <string name="error_story_not_available">That story is no longer available.</string>
+    <string name="camera_permission_required">Camera access is required to capture a story.</string>
+    <string name="flash_enabled">Flash enabled</string>
+    <string name="flash_disabled">Flash disabled</string>
+    <string name="error_capture_photo">Unable to capture photo. Please try again.</string>
+    <string name="feature_coming_soon">This feature is coming soon.</string>
+
+    <!-- Posts -->
+    <string name="post_caption_format">%1$s %2$s</string>
+    <plurals name="post_likes">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string name="post_comments_count">%1$d comments</string>
+    <string name="post_comments_empty">No comments yet. Start the conversation!</string>
+    <string name="post_comment_hint">Add a comment…</string>
+    <string name="post_comment_post">Post</string>
+    <string name="post_comment_error">We could not add your comment right now.</string>
+    <string name="post_share_title">Share post</string>
+    <string name="post_share_message">Check out this post from %1$s!</string>
+    <string name="post_upload_title">Create a post</string>
+    <string name="post_upload_pick_media">Pick a photo or video</string>
+    <string name="post_upload_caption_hint">Write a caption…</string>
+    <string name="post_upload_share">Share</string>
+    <string name="post_upload_cancel">Cancel</string>
+    <string name="post_upload_error_media">Pick a photo or video before sharing your post.</string>
+    <string name="post_upload_in_progress">Sharing your post…</string>
+    <string name="post_upload_success">Your post is live.</string>
+    <string name="posts_empty_state">No posts yet. Share a photo to get the feed going.</string>
+    
+    <!-- Sample data -->
+    <string name="sample_username">tejpatil064</string>
+    <string name="sample_name">Tejas</string>
+    <string name="sample_lastname">Patil</string>
+    <string name="sample_dob">02 - 09 - 2003</string>
+    <string name="sample_password">••••••••</string>
+    
+    <!-- Quick Login Screen -->
+    <string name="log_in">Log in</string>
+    <string name="switch_accounts">Switch accounts</string>
+    <string name="dont_have_account">Do not have an account?</string>
+    <string name="sign_up_link">Sign up.</string>
+    <string name="jacob_username">jacob_w</string>
+    
+    <!-- Login Screen -->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_text">OR</string>
+    <string name="login_username">asad_khasanov</string>
+    <string name="password_hint">Password</string>
+    
+    <!-- Common UI Elements -->
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="profile_image">Profile Image</string>
+</resources>
