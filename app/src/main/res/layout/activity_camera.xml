@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Camera Preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true" />
+
+    <!-- Top Overlay Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/close_camera_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_close"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            app:tint="@color/white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/flash_toggle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_flash"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:layout_marginEnd="16dp"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/camera_switch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_camera_switch"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+    <!-- Bottom Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp"
+        android:paddingBottom="32dp">
+
+        <!-- Camera Mode Selector -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:id="@+id/mode_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TYPE"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/mode_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIVE"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/mode_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NORMAL"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/mode_boomerang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOOMERANG"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/mode_super"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUPER"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" />
+
+        </LinearLayout>
+
+        <!-- Camera Controls Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Gallery Button -->
+            <FrameLayout
+                android:id="@+id/gallery_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/rounded_square_background">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sample_photo_2"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- Capture Button -->
+            <FrameLayout
+                android:id="@+id/capture_button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/camera_capture_button">
+
+                <View
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/camera_capture_inner" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- Effects Button -->
+            <ImageView
+                android:id="@+id/effects_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/ic_effects"
+                android:background="@drawable/circle_background"
+                android:padding="8dp"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
