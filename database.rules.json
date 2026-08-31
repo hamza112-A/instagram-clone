@@ -1,0 +1,50 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "$uid === auth.uid",
+        "fcmToken": {
+          ".read": true
+        },
+        "onlineStatus": {
+          ".read": true
+        }
+      }
+    },
+    "presence": {
+      "$uid": {
+        ".read": true,
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "notifications": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "auth != null",
+        "$notificationId": {
+          ".validate": "newData.hasChildren(['type', 'fromUserId', 'fromUserName', 'timestamp'])"
+        }
+      }
+    },
+    "chats": {
+      "$chatId": {
+        ".read": "auth != null && data.child('participants').child(auth.uid).exists()",
+        ".write": "auth != null && data.child('participants').child(auth.uid).exists()",
+        "messages": {
+          "$messageId": {
+            ".write": "auth != null && root.child('chats').child($chatId).child('participants').child(auth.uid).exists()"
+          }
+        }
+      }
+    },
+    "follow": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "followRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
